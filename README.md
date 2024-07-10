@@ -17,6 +17,26 @@ Description: This layout includes a clock display and a music widget showing the
 ![Layout 3](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout3.png)
 Description: This layout showcases a clock display, weather information, and a music widget with a custom background.
 
+## Layout 4
+
+![Layout 4](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout4.png)
+Description: This layout features a clock display with a background image and additional widgets.
+
+## Layout 5
+
+![Layout 5](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout5.png)
+Description: This layout includes a clock display with a gradient background and a greeting message.
+
+## Layout 6
+
+![Layout 6](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout6.png)
+Description: This layout showcases a clock display with a custom background and a music widget.
+
+## Layout 7
+
+![Layout 7](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout7.png)
+Description: This layout features a clock display with a background image and a weather widget.
+
 ...
 
 ## Installation and Usage
