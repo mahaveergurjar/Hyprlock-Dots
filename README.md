@@ -4,7 +4,7 @@ This repository contains the Hyprlock configuration files and layout settings. B
 
 ## Layout 1
 
-![Layout 1](path/to/image1.png)
+![Layout 1](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout1.png)
 Description: This layout features a minimalistic clock display with a greeting message and a button.
 
 ## Layout 2
