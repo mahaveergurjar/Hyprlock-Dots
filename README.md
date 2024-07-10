@@ -5,7 +5,7 @@ This repository contains the Hyprlock configuration files and layout settings. B
 ## Layout 1
 
 ![Layout 1](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout1.png)
-Description: This layout features a minimalistic clock display with a greeting message and a button.
+Description: This layout features a minimalistic clock display with a greeting message .
 
 ## Layout 2
 
@@ -15,7 +15,7 @@ Description: This layout includes a clock display and a music widget showing the
 ## Layout 3
 
 ![Layout 3](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout3.png)
-Description: This layout showcases a clock display, weather information, and a music widget with a custom background.
+Description: This layout showcases a clock display, weather & battery information, and a music widget with an album sync background.
 
 ## Layout 4
 
