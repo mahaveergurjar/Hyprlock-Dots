@@ -9,12 +9,12 @@ Description: This layout features a minimalistic clock display with a greeting m
 
 ## Layout 2
 
-![Layout 2](path/to/image2.png)
+![Layout 2](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout2.png)
 Description: This layout includes a clock display and a music widget showing the currently playing track from Spotify.
 
 ## Layout 3
 
-![Layout 3](path/to/image3.png)
+![Layout 3](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout3.png)
 Description: This layout showcases a clock display, weather information, and a music widget with a custom background.
 
 ...
