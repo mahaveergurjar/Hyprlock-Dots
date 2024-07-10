@@ -58,14 +58,3 @@ Description: This layout features a clock display with a background image and a 
 
 You can customize the layouts by editing the respective configuration files located in the `~/.config/hyprlock/` directory.
 
-## Screenshots
-
-Below are the screenshots for each layout:
-
-1. Layout 1
-2. Layout 2
-3. Layout 3
-4. Layout 4
-5. Layout 5
-6. Layout 6
-7. Layout 7
