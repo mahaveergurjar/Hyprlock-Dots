@@ -5,7 +5,7 @@ This repository contains the Hyprlock configuration files and layout settings. B
 ## Layout 1
 
 ![Layout 1](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout1.png)
-Description: This layout features a minimalistic clock display with a greeting message .
+Description: This layout features a minimalistic clock display with a greeting message.
 
 ## Layout 2
 
@@ -49,7 +49,11 @@ Description: This layout features a clock display with a background image and a 
     ```bash
     cp -r hyprlock-config/* ~/.config/hyprlock/
     ```
-3. Restart Hyprlock to apply the changes:
+3. Copy the `hyprlock.conf` file to the Hypr configuration directory:
+    ```bash
+    cp hyprlock.conf ~/.config/hypr/
+    ```
+4. Restart Hyprlock to apply the changes:
     ```bash
     hyprlock --reload
     ```
@@ -57,4 +61,3 @@ Description: This layout features a clock display with a background image and a 
 ## Customization
 
 You can customize the layouts by editing the respective configuration files located in the `~/.config/hyprlock/` directory.
-
