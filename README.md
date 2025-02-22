@@ -40,7 +40,7 @@ This repository contains the Hyprlock configuration files and layout settings. B
 
 ## Layout 10
 
-![Layout 10](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout11.png)
+![Layout 10](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout10.png)
 
 ## Layout 11
 
