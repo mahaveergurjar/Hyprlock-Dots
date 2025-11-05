@@ -12,21 +12,22 @@ fi
 get_metadata() {
     key=$1
     playerctl metadata --format "{{ $key }}" 2>/dev/null
-    
+}
 
+# Function to check if the player is Spotify
+is_spotify() {
+    player=$(playerctl -l 2>/dev/null | grep spotify)
+    if [ -z "$player" ]; then
+        echo "Not playing on Spotify"
+        exit 1
+    fi
 }
 
 # Function to determine the source and return an icon and text
 get_source_info() {
     trackid=$(get_metadata "mpris:trackid")
-    if [[ "$trackid" == *"firefox"* ]]; then
-        echo -e "Firefox 󰈹"
-    elif [[ "$trackid" == *"spotify"* ]]; then
+    if [[ "$trackid" == *"spotify"* ]]; then
         echo -e "Spotify "
-    elif [[ "$trackid" == *"chromium"* ]]; then
-        echo -e "Chrome "
-    elif [[ "$trackid" == *"YoutubeMusic"* ]]; then
-        echo -e "YouTubeMusic "
     else
         echo ""
     fi
@@ -43,7 +44,7 @@ convert_length() {
     local seconds=$((length / 1000000))
     local minutes=$((seconds / 60))
     local remaining_seconds=$((seconds % 60))
-    printf "%d:%02d m" $minutes $remaining_seconds
+    printf "%d:%02d min" $minutes $remaining_seconds
 }
 
 # Function to convert seconds to minutes and seconds
@@ -70,6 +71,9 @@ fetch_thumb() {
     pkill -USR2 hyprlock
 }
 
+# Ensure player is Spotify
+is_spotify
+
 # Run fetch_thumb function in the background
 { fetch_thumb ;} || { rm -f "${THUMB}*" && exit 1;} &
 
@@ -80,22 +84,15 @@ case "$1" in
     if [ -z "$title" ]; then
         echo ""
     else
-        echo "${title:0:50}" # Limit the output to 50 characters
+        echo "${title:0:15}..." # Limit the output to 50 characters
     fi
     ;;
-# --arturl)
-#     fetch_thumb & # Run fetch_thumb in the background
-#     url=$(get_metadata "mpris:artUrl")
-#     if [[ "$(playerctl -p status)" != "Playing"  ]]; then
-#           rm -f /tmp/hyde-mpris*
-#     fi
-#      ;;
 --artist)
     artist=$(get_metadata "xesam:artist")
     if [ -z "$artist" ]; then
         echo ""
     else
-        echo "${artist:0:50}" # Limit the output to 50 characters
+        echo "${artist:0:20}" #mit the output to 50 characters
     fi
     ;;
 --position)
@@ -120,9 +117,9 @@ case "$1" in
 --status)
     status=$(playerctl status 2>/dev/null)
     if [[ $status == "Playing" ]]; then
-        echo "󰎆"
+        echo "⏸"
     elif [[ $status == "Paused" ]]; then
-        echo "󱑽"
+        echo "▶"
     else
         echo ""
     fi
@@ -145,6 +142,7 @@ case "$1" in
     ;;
 *)
     echo "Invalid option: $1"
-    echo "Usage: $0 --title | --arturl | --artist | --position | --length | --album | --source" ; exit 1
+    echo "Usage: $0 --title | --arturl | --artist | --position | --length | --album | --source"
+    exit 1
     ;;
 esac

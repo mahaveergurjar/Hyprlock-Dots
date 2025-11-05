@@ -58,9 +58,21 @@ This repository contains the Hyprlock configuration files and layout settings. B
 
 ![Layout 14](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout14.png)
 
+## Layout 15
+
+![Layout 15](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout15.png)
+
+## Layout 16
+
+![Layout 16](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout16.png)
+
 ## Layout 17
 
-![Layout 17](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/refs/heads/main/screenshots/layout17.png)
+![Layout 17](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/main/screenshots/layout17.png)
+
+## Layout 18
+
+![Layout 18](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/refs/heads/main/screenshots/layout18.png)
 
 ...
 
