@@ -82,15 +82,19 @@ This repository contains the Hyprlock configuration files and layout settings. B
    ```bash
    git clone https://github.com/mahaveergurjar/hyprlock-Dots.git
    ```
-2. Copy the configuration files to your Hyprlock directory:
+2. Move into Hyprlock-Dots
    ```bash
-   cp -r hyprlock-config/* ~/.config/hyprlock/
+   cd Hyprlock-Dots
    ```
-3. Copy the `hyprlock.conf` file to the Hypr configuration directory:
+3. Copy the configuration files to your Hyprlock directory:
+   ```bash
+   cp -r .config/hyprlock ~/.config/
+   ```
+4. Copy the `hyprlock.conf` file to the Hypr configuration directory:
    ```bash
    cp hyprlock.conf ~/.config/hypr/
    ```
-4. Restart Hyprlock to apply the changes:
+5. Restart Hyprlock to apply the changes:
    ```bash
    hyprlock --reload
    ```
