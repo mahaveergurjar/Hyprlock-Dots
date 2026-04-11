@@ -81,6 +81,9 @@ This repository contains the Hyprlock configuration files and layout settings. B
 Layout 19 setup — click the branch link below to view the files:  
 **Branch:** [https://github.com/mahaveergurjar/Hyprlock-Dots/tree/glava](https://github.com/mahaveergurjar/Hyprlock-Dots/tree/glava)
 
+## Layout 20
+
+![Layout 20](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/refs/heads/main/screenshots/layout20.png)
 ...
 
 ## Installation and Usage
