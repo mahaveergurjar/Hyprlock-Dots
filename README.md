@@ -49,12 +49,12 @@ Below are all available layouts:
 ![Layout 18](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/refs/heads/main/screenshots/layout18.png)
 ### Layout 19
 ![Layout 19](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/glava/screenshots/layout19.png)
-### Layout 20
-![Layout 20](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/refs/heads/main/screenshots/layout20.png)
-
 > **Note:**  
 > Layout 19 requires files from a separate branch:  
 > https://github.com/mahaveergurjar/Hyprlock-Dots/tree/glava
+### Layout 20
+![Layout 20](https://raw.githubusercontent.com/mahaveergurjar/Hyprlock-Dots/refs/heads/main/screenshots/layout20.png)
+
 
 ---
 
